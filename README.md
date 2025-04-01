@@ -16,27 +16,6 @@ You can view the live version of the portfolio here: https://Muthaa.github.io/Po
 
 ---
 
-## 📑 Features
-### 1. **About Me Section**
-   - Introduction to myself, detailing my background, experience, and passion for technology.
-
-### 2. **Skills / Tech Stacks**
-   - Lists of programming languages and frameworks I specialize in.
-
-### 3. **Projects Section**
-   - A showcase of some key projects I have worked on.
-
-### 4. **Educational Background**
-   - Information about my degree in **Bachelor of Business Information Technology** from **Jomo Kenyatta University of Agriculture and Technology**.
-
-### 5. **Interests**
-   - Areas I am passionate about, including **Cybersecurity**, **Software Development**, **AI Integration**, and more.
-
-### 6. **Contact Form**
-   - A contact form for visitors to send messages directly to me.
-   - Social media links to my **GitHub** and **LinkedIn** profiles.
----
-
 ## 🛠️ Technology Stack Applied
 - **Frontend**: HTML, CSS
 - **Deployment**: Hosted via GitHub Pages*
@@ -71,6 +50,26 @@ You can view the live version of the portfolio here: https://Muthaa.github.io/Po
 
 2. Open the `index.html` file in your browser to view the portfolio locally.
 
+---
+## 📑 Features
+### 1. **About Me Section**
+   - Introduction to myself, detailing my background, experience, and passion for technology.
+
+### 2. **Skills / Tech Stacks**
+   - Lists of programming languages and frameworks I specialize in.
+
+### 3. **Projects Section**
+   - A showcase of some key projects I have worked on.
+
+### 4. **Educational Background**
+   - Information about my degree in **Bachelor of Business Information Technology** from **Jomo Kenyatta University of Agriculture and Technology**.
+
+### 5. **Interests**
+   - Areas I am passionate about, including **Cybersecurity**, **Software Development**, **AI Integration**, and more.
+
+### 6. **Contact Form**
+   - A contact form for visitors to send messages directly to me.
+   - Social media links to my **GitHub** and **LinkedIn** profiles.
 ---
 
 ## 📥 Contact Me
