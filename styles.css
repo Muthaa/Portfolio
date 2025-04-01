@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background: #fff;
+    background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
     background:;
@@ -27,6 +27,15 @@ header {
     top: 0;
     color:#1b1b1b;
     margin-bottom: 14px;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Switch to column layout on smaller screens */
+    }
+    .about-right{
+        padding: 0;
+    }
 }
 
 h2{
@@ -44,7 +53,6 @@ h2{
     flex-direction: row; /* Align content in a row (two columns) */
     justify-content: center; /* Add space between columns */
     align-items: center;
-    padding: 2rem;
     color: #1b1b1b;
     margin-bottom: 14px;
 }
@@ -55,12 +63,13 @@ h2{
 
 .abt-block{
     text-align: left;
-
 }
 
-.about-left, .about-right {
-    flex: 1; /* Ensure both columns take equal width */
-    padding: 1rem;
+@media (min-width: 900px) {
+    .about-left, .about-right {
+        flex: 1; /* Ensure both columns take equal width */
+        padding: 1rem;
+    }
 }
 
 .about-card img {
@@ -73,15 +82,26 @@ h2{
 
 /* Skills Section */
 #skills{
-    background: #fff;
     display: flex;
-/*    grid-template-columns: auto auto;*/
-    flex-direction: row; /* Align content in a row (two columns) */
-    justify-content: center; /* Add space between columns */
+    flex-direction: row;
+    background: #fff;
     align-items: center;
     padding: 2rem;
     color: #1b1b1b;
     margin-bottom: 14px;
+}
+/* Media query for smaller screens */
+@media (max-width: 1000px) {
+    #skills {
+        flex-direction: column; /* Switch to column layout on smaller screens */
+        padding: 0;
+    }
+    #skills li{
+        width: 50vw;
+    }
+    #about{
+        flex-direction: column;
+    }
 }
 
 #skills ul {
@@ -96,7 +116,7 @@ h2{
     border: 2px solid gold; /* Border around each box */
     background-color: #1b1b1b; /* Light gray background */
     text-align: center; /* Center the text inside each box */
-    width: 150px; /* Set a fixed width for each box */
+    width: 200px; /* Set a fixed width for each box */
     font-size: 14px; /* Set the font size */
     border-radius: 8px; /* Rounded corners */
     color: #fff;
@@ -160,8 +180,8 @@ h2{
 #projects{
     background: #fff;
     display: flex;
-
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     padding: 2rem;
     color: #1b1b1b;
     margin-bottom: 14px;
@@ -171,7 +191,7 @@ h2{
     padding: 10px; /* Inside space of each box */
     border: 2px solid gold; /* Border around each box */
     text-align: left; /* Center the text inside each box */
-    width: 700px;/* Set a fixed width for each box */
+    width: 100%; 
     font-size: 14px; /* Set the font size */
     border-radius: 8px; /* Rounded corners */
     color: #fff;
@@ -191,6 +211,24 @@ h2{
   padding: 2rem;
   color: #1b1b1b;
   margin-bottom: 14px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1000px) {
+    #contact {
+        flex-direction: column; /* Switch to column layout on smaller screens */
+        padding: 0;
+    }
+    #projects{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .project{
+        width:100%;
+    }
+    *{
+        padding: 0;
+    }
 }
 
 /* Contact form */
@@ -313,7 +351,18 @@ footer {
     -moz-animation: sprite-animation 1.2s steps(16,end) infinite; 
     -ms-animation: sprite-animation 1.2s steps(16,end) infinite; 
     animation: sprite-animation 1.2s steps(16,end) infinite;
+}
+/* Reduce size on smaller screens */
+@media (max-width: 768px) {
+    #gato {
+        height: 150px;  /* Reduce height */
+        width: 250px;   /* Reduce width */
+        margin-top: 1em;
+        margin-left: 1em;
+        background-size: cover; /* Ensures proper scaling */
+        animation: sprite-animation 2s steps(16, end) infinite; 
     }
+}
 
 @-webkit-keyframes sprite-animation { 
         from { background-position: 0 0; }
@@ -331,7 +380,7 @@ footer {
     }
 
 @keyframes sprite-animation { 
-        from { background-position: 0 0; }
-        to { background-position: -8120px 0; }
-    }
+    from { background-position: 0 0; }
+    to { background-position: -8120px 0; }
+}
 
