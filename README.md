@@ -17,29 +17,17 @@ You can view the live version of the portfolio here: https://Muthaa.github.io/Po
 ---
 
 ## 📑 Features
-
 ### 1. **About Me Section**
    - Introduction to myself, detailing my background, experience, and passion for technology.
-   - Overview of my career as a **Software Developer**, **API Architect**, and **Cybersecurity Enthusiast**.
 
 ### 2. **Skills / Tech Stacks**
-   - Lists of programming languages and frameworks I specialize in:
-     - **Backend Development**: Python, C#, Java, Node.js
-     - **Frontend Development**: React, JavaScript, React Native, Flutter
-     - **Mobile Development**: Android, Flutter, React Native
-     - **Database Development**: MySQL, SQL Server, Firebase
-     - **DevOps**: Git, CI/CD, GitHub Actions
+   - Lists of programming languages and frameworks I specialize in.
 
 ### 3. **Projects Section**
-   - A showcase of some key projects I have worked on:
-     - **Ride-share App**: A ride-sharing platform built with React Native and Node.js.
-     - **RemoteMed-HMS**: A healthcare management system for telemedicine consultations.
-     - **EmPOS**: A point-of-sale management system for small businesses.
-     - **Mental Health App**: A therapy management and mood tracking application.
+   - A showcase of some key projects I have worked on.
 
 ### 4. **Educational Background**
    - Information about my degree in **Bachelor of Business Information Technology** from **Jomo Kenyatta University of Agriculture and Technology**.
-   - Link to download my **CV**.
 
 ### 5. **Interests**
    - Areas I am passionate about, including **Cybersecurity**, **Software Development**, **AI Integration**, and more.
@@ -47,14 +35,11 @@ You can view the live version of the portfolio here: https://Muthaa.github.io/Po
 ### 6. **Contact Form**
    - A contact form for visitors to send messages directly to me.
    - Social media links to my **GitHub** and **LinkedIn** profiles.
-
 ---
 
-## 🛠️ Technology Stack
-
+## 🛠️ Technology Stack Applied
 - **Frontend**: HTML, CSS
 - **Deployment**: Hosted via GitHub Pages*
-
 ---
 
 ## 📁 Folder Structure
@@ -62,25 +47,26 @@ You can view the live version of the portfolio here: https://Muthaa.github.io/Po
 ```
 /portfolio-website
 ├── /assets
-│   ├── /images
+    └── /Phil-Resume.pdf
+├── /images
 │   └── /ico.png
-├── /css
-│   └── styles.css
+│   └── /IMG20250.jpg
 ├── index.html
+├── styles.css
 └── README.md
 ```
 
 - **index.html**: The main HTML file for the portfolio page.
 - **styles.css**: The main CSS file for styling the portfolio.
-- **/assets**: Contains images and icons used in the portfolio.
-
+- **/assets**: Contains a downloadble pdf resume.
+- **/images**: Contains images and icons used in the portfolio.
 ---
 
 ## 💻 How to Run Locally
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Muthaa/portfolio.git
+   git clone https://github.com/Muthaa/Portfolio.git
    ```
 
 2. Open the `index.html` file in your browser to view the portfolio locally.
